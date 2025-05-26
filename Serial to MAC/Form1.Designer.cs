@@ -51,6 +51,7 @@
             this.serialNum.Size = new System.Drawing.Size(183, 20);
             this.serialNum.TabIndex = 0;
             this.serialNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.serialNum.TextChanged += new System.EventHandler(this.serialNum_TextChanged);
             // 
             // label1
             // 
